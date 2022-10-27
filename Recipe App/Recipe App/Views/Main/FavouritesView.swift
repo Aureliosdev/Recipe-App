@@ -11,7 +11,9 @@ struct FavouritesView: View {
     var body: some View {
         NavigationView {
             Text("Favourites")
+                .padding()
                 .navigationTitle("Favourites")
+            
         }
     }
 }

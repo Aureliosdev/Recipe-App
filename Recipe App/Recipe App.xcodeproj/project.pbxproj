@@ -16,6 +16,7 @@
 		D35BEE42290320450094F086 /* CategoriesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D35BEE41290320450094F086 /* CategoriesView.swift */; };
 		D35BEE44290320540094F086 /* NewRecipeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D35BEE43290320540094F086 /* NewRecipeView.swift */; };
 		D35BEE46290320820094F086 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D35BEE45290320820094F086 /* HomeView.swift */; };
+		D3C73933290AE24300155E12 /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C73932290AE24300155E12 /* TabBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		D35BEE41290320450094F086 /* CategoriesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesView.swift; sourceTree = "<group>"; };
 		D35BEE43290320540094F086 /* NewRecipeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewRecipeView.swift; sourceTree = "<group>"; };
 		D35BEE45290320820094F086 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		D3C73932290AE24300155E12 /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +109,7 @@
 			isa = PBXGroup;
 			children = (
 				D35BEE2A290313570094F086 /* ContentView.swift */,
+				D3C73932290AE24300155E12 /* TabBar.swift */,
 				D35BEE45290320820094F086 /* HomeView.swift */,
 				D35BEE3D290320250094F086 /* SettingsView.swift */,
 				D35BEE3F290320350094F086 /* FavouritesView.swift */,
@@ -203,6 +206,7 @@
 				D35BEE3E290320250094F086 /* SettingsView.swift in Sources */,
 				D35BEE46290320820094F086 /* HomeView.swift in Sources */,
 				D35BEE2B290313570094F086 /* ContentView.swift in Sources */,
+				D3C73933290AE24300155E12 /* TabBar.swift in Sources */,
 				D35BEE40290320350094F086 /* FavouritesView.swift in Sources */,
 				D35BEE44290320540094F086 /* NewRecipeView.swift in Sources */,
 				D35BEE42290320450094F086 /* CategoriesView.swift in Sources */,
