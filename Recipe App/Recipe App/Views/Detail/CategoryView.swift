@@ -9,9 +9,9 @@ import SwiftUI
 
 struct CategoryView: View {
     var category: Category
-    
+    @EnvironmentObject var recipesViewModel: RecipesViewModel
     var recipes: [RecipeModel] {
-        return RecipeModel.all.filter{ $0.category == category.rawValue}
+        return recipesViewModel.recipes.filter{ $0.category == category.rawValue}
     }
     var body: some View {
         ScrollView {
@@ -24,5 +24,6 @@ struct CategoryView: View {
 struct CategoryView_Previews: PreviewProvider {
     static var previews: some View {
         CategoryView(category: Category.burger)
+            .environmentObject(RecipesViewModel())
     }
 }
